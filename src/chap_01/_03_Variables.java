@@ -22,7 +22,11 @@ public class _03_Variables {
         System.out.println(d);
         System.out.println(f);
 
-        int i = 100000000000;
-        long l = 10000000000;
+        long l = 10000000000L;
+        l = 1_000_0000_000_000L;
+        System.out.println(l);
+
+        //변수 출력 종류
+        //int, long, float,double,char, string, boolean
     }
 }
